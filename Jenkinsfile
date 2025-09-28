@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Run Fullstack') {
             steps {
-                bat 'G:\\Coding\\Road to 15 LPA\\Jenkins\\Full Stack\\fullstack_scripts\\run_full_stack_bg.bat'
+                bat '"G:\\Coding\\Road to 15 LPA\\Jenkins\\Full Stack\\fullstack_scripts\\run_full_stack_bg.bat"'
             }
         }
     }
