@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         JAVA_HOME = "G:\\Program Files\\Java\\Jdk-17"
-        PATH = "${JAVA_HOME}\\bin;${env.PATH}"
+        PATH = "${JAVA_HOME}\\bin;C:\\Program Files\\nodejs;${env.PATH}"
     }
     stages {
         stage('Run Fullstack') {
