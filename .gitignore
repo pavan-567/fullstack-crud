@@ -3,3 +3,4 @@ start.bat
 start.sh
 backend/target/
 frontend/node_modules
+fullstack_scripts/
